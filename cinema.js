@@ -41,8 +41,12 @@ function listarTodosOsFilmes(filmes) {
     if (idxFilme >= 0) {
       filmes[idxFilme].emCartaz = !filmes[idxFilme].emCartaz;
       return true;
-    }else{
-      return false
+    } else {
+      return false;
     }
   }
+  
+  console.log(alterarStatusEmCartaz(1, catalogoObj.data));
+  console.log(catalogoObj.data);
+  
   
